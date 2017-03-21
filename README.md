@@ -1,5 +1,24 @@
 # rax-demo-app
 
+## Setup and Installation
+
+```bash
+git clone git@github.com:JimmyLv/rax-demo-app.git rax-demo && cd $_
+yarn install
+```
+
+```bash
+time yarn install
+yarn install v0.21.3
+warning rax-demo-app@0.0.0: No license field
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 📃  Building fresh packages...
+✨  Done in 106.15s.
+yarn install  13.75s user 8.51s system 20% cpu 1:46.53 total
+```
+
 ## Getting Started
 
 ### `npm run start`
