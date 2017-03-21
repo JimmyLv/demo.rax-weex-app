@@ -4009,6 +4009,12 @@ universal-env@^0.2.5:
   version "0.2.5"
   resolved "http://registry.npm.taobao.org/universal-env/download/universal-env-0.2.5.tgz#d46aaacd042cc719e5cb80709a578fec8b964839"
 
+universal-jsonp@^0.2.5:
+  version "0.2.5"
+  resolved "http://registry.npm.taobao.org/universal-jsonp/download/universal-jsonp-0.2.5.tgz#f4cd8bd772a2c1305173730fbc3c3621a2ffc507"
+  dependencies:
+    universal-env "^0.2.5"
+
 unpipe@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/unpipe/download/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"

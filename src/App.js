@@ -1,4 +1,5 @@
 import { createElement, Component } from 'rax'
+import { isWeex, isWeb } from 'universal-env'
 import View from 'rax-view'
 import Text from 'rax-text'
 import styles from './App.css'
@@ -9,6 +10,13 @@ class App extends Component {
     this.state = {
       todos: [],
     }
+
+    console.info(isWeex ? 'Hello Weex!' : isWeb ? 'Hello Web!' : 'Hello Native!')
+
+    fetch('https://jimmylv.github.io/api/index.json')
+      .then(res => res.json())
+      .then(json => this.setState({ data: json }))
+      .catch(err => console.info(err.message))
   }
 
   render() {

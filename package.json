@@ -12,7 +12,9 @@
   "dependencies": {
     "rax": "^0.2.5",
     "rax-text": "^0.2.5",
-    "rax-view": "^0.2.5"
+    "rax-view": "^0.2.5",
+    "universal-jsonp": "^0.2.5",
+    "universal-env": "latest"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
@@ -46,9 +48,8 @@
         2,
         "never"
       ],
-      "dot-notation": [
-        0
-      ],
+      "no-nested-ternary": 0,
+      "dot-notation": 0,
       "no-unused-vars": [
         "error",
         {
@@ -57,6 +58,9 @@
       ],
       "react/react-in-jsx-scope": 0,
       "react/jsx-filename-extension": 0
+    },
+    "globals": {
+      "fetch": false
     }
   },
   "stylelint": {
