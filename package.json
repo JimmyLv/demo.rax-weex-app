@@ -5,7 +5,8 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --no-info",
     "build": "rm -rf build && NODE_ENV=production ./node_modules/.bin/webpack",
-    "lint": "./node_modules/.bin/eslint --ext .js --ext .jsx ./src"
+    "lint": "./node_modules/.bin/eslint --ext .js --ext .jsx ./src",
+    "lint:fix": "./node_modules/.bin/eslint --ext .js --ext .jsx ./src --fix"
   },
   "dependencies": {
     "rax": "^0.2.5",
@@ -34,5 +35,13 @@
     "watch-missing-node-modules-webpack-plugin": "0.0.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "react/react-in-jsx-scope": 0,
+      "react/jsx-filename-extension": 0,
+      "semi": [2, "never"]
+    }
   }
 }

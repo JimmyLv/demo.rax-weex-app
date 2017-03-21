@@ -1,9 +1,16 @@
-import {createElement, Component} from 'rax';
-import View from 'rax-view';
-import Text from 'rax-text';
-import styles from './App.css';
+import { Component } from 'rax'
+import View from 'rax-view'
+import Text from 'rax-text'
+import styles from './App.css'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      todos: [],
+    }
+  }
+
   render() {
     return (
       <View style={styles.app}>
@@ -14,8 +21,8 @@ class App extends Component {
           To get started, edit src/App.js and save to reload.
         </Text>
       </View>
-    );
+    )
   }
 }
 
-export default App;
+export default App
