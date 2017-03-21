@@ -3,7 +3,7 @@
 ## Setup and Installation
 
 ```bash
-git clone git@github.com:JimmyLv/rax-demo-app.git rax-demo && cd $_
+git clone git@github.com:JimmyLv/demo.rax-weex-app.git rax-demo && cd $_
 yarn install
 ```
 
