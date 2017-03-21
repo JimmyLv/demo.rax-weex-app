@@ -39,9 +39,10 @@
   "eslintConfig": {
     "extends": "airbnb",
     "rules": {
+      "semi": [2, "never"],
+      "no-unused-vars": ["error", { "varsIgnorePattern": "createElement" }],
       "react/react-in-jsx-scope": 0,
-      "react/jsx-filename-extension": 0,
-      "semi": [2, "never"]
+      "react/jsx-filename-extension": 0
     }
   }
 }
