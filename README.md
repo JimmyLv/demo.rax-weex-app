@@ -1,4 +1,4 @@
-# rax-starter-kit
+# rax-demo-app
 
 ## Getting Started
 
