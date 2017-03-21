@@ -10,7 +10,8 @@
   padding: 40;
 }
 
-.banner, .intro {
+.banner,
+.intro {
   text-align: center;
 }
 
