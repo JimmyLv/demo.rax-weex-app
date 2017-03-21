@@ -4,22 +4,22 @@
   align-items: center;
 }
 
-.appHeader {
+.header {
   background-color: #222;
   height: 160;
   padding: 40;
 }
 
-.appBanner, .appIntro {
+.banner, .intro {
   text-align: center;
 }
 
-.appBanner {
+.banner {
   font-size: 80;
   color: white;
 }
 
-.appIntro {
+.intro {
   margin-top: 40;
   font-size: 40;
   line-height: 60;
