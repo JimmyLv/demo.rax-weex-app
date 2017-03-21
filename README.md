@@ -10,6 +10,10 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 The page will reload if you make edits.
 
+### `npm run test`
+
+You can run jest with test coverage.
+
 ### `npm run lint`
 
 You will see the lint errors in the console.
@@ -17,6 +21,10 @@ You will see the lint errors in the console.
 ### `npm run lint:fix`
 
 And fix some of lint errors automatically. 
+
+### `npm run stylelint`
+
+You can also run the linter for styling. 
 
 ### `npm run build`
 
