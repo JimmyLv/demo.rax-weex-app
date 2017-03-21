@@ -14,6 +14,10 @@ The page will reload if you make edits.
 
 You will see the lint errors in the console.
 
+### `npm run lint:fix`
+
+And fix some of lint errors automatically. 
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.
