@@ -17,9 +17,10 @@ class App extends Component {
         <View style={styles['header']}>
           <Text style={styles['banner']}>Welcome to Rax</Text>
         </View>
-        <Text style={styles['intro']}>
-          To get started, edit src/App.js and save to reload.
-        </Text>
+        <View style={styles['intro']}>
+          <Text style={styles['icon']}>{'\uE601'}</Text>
+          <Text>To get started, edit src/App.js and save to reload.</Text>
+        </View>
       </View>
     )
   }
