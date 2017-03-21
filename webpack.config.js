@@ -149,7 +149,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'stylesheet'
+        loader: 'stylesheet?transformDescendantCombinator'
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
